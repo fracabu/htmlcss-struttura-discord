@@ -16,7 +16,7 @@
 }
 
 .bg-grey{
-    background: grey;
+    background: #D3D3D3;
 }
 
 .bg-jumbotron{
@@ -28,15 +28,15 @@
     display: flex;
 }
 .col{
-    background-color: red;
+    background-color: #FFC0CB;
     padding: 3rem 1rem;
     flex-grow: 1;
-    min-height: 400px;
+    min-height: 350px;
     
 }
 
 .col-large{
-    background-color: blue;
+    background-color: #1E90FF;
     flex-grow: 2;
 }
 
@@ -54,4 +54,21 @@
     width: 800px;
     height: 600px;
     margin: auto;
+    padding: 3rem;
 }
+
+.bg-black{
+    background: #4F4F4F;
+}
+
+#special{
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+
+}
+
