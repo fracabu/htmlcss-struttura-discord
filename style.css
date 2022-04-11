@@ -3,15 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    width: 960px;
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding: 2em 1em;
 }
 
-.box-header{
-    background: #ADD8E6;
-    width: 960px;
-    height: 40px;
+.section{
+    padding: 4rem 0; 
+}
+
+.bg-grey{
+    background: grey;
+}
+
+.bg-jumbotron{
+    background: blue;
+
+}
+
+.d-flex{
     display: flex;
-    text-align: center;
-
 }
+.col{
+    background-color: red;
+    padding: 3rem 1rem;
+    flex-grow: 1;
+    min-height: 400px;
+    
+}
+
+.col-large{
+    background-color: blue;
+    flex-grow: 2;
+}
+
+.pink-square{
+    background: pink;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border: 2px solid black;
+    
+}
+
